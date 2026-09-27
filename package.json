@@ -1,0 +1,11 @@
+{
+  "name": "nidhi-donation-manager",
+  "version": "1.0.0",
+  "description": "Nidhi — a charity & donation management system for fundraising drives",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {}
+}

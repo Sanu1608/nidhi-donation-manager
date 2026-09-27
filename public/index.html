@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nidhi — Donation & Campaign Manager</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">&#9670;</span>
+        <div>
+          <div class="brand-title">Nidhi</div>
+          <div class="brand-sub">Donation & Campaign Manager</div>
+        </div>
+      </div>
+      <nav class="nav" id="nav">
+        <button class="nav-item active" data-view="dashboard">Dashboard</button>
+        <button class="nav-item" data-view="donors">Donors</button>
+        <button class="nav-item" data-view="campaigns">Campaigns</button>
+        <button class="nav-item" data-view="donations">Donations</button>
+        <button class="nav-item" data-view="utilizations">Fund Utilization</button>
+        <button class="nav-item" data-view="communications">Communications</button>
+      </nav>
+      <div class="sidebar-foot">Nidhi — every gift, tracked and thanked</div>
+    </aside>
+
+    <main class="content" id="content">
+      <!-- Views are rendered here by app.js -->
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modal-backdrop">
+    <div class="modal" id="modal"></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
